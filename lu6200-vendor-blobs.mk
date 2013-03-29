@@ -68,10 +68,16 @@ PRODUCT_COPY_FILES += \
 	vendor/lge/lu6200/proprietary/bin/ami304d:system/bin/ami304d \
 	vendor/lge/lu6200/proprietary/lib/libv8.so:system/lib/libv8.so
 
+# GPS
 PRODUCT_COPY_FILES += \
 	vendor/lge/lu6200/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
+	vendor/lge/lu6200/proprietary/lib/hw/gps.iprj.so:system/lib/hw/gps.iprj.so \
 	vendor/lge/lu6200/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
-	vendor/lge/lu6200/proprietary/lib/libgpsone_bit_api.so:system/lib/libgpsone_bit_api.so
+	vendor/lge/lu6200/proprietary/lib/libgpsone_bit_api.so:system/lib/libgpsone_bit_api.so \
+	vendor/lge/lu6200/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+	vendor/lge/lu6200/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
+	vendor/lge/lu6200/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
+	vendor/lge/lu6200/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so
 
 # RIL
 PRODUCT_COPY_FILES += \
